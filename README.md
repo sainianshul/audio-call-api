@@ -1,4 +1,4 @@
-# Laravel API Starter with Swagger Documentation
+# Audio Call Laravel API 
 
 Build a backend in Laravel that allows two registered users to initiate and receive audio calls via token-based signaling (for WebRTC/Agora-like flow).
 
