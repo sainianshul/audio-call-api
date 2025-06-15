@@ -1,6 +1,6 @@
 # Laravel API Starter with Swagger Documentation
 
-This is a simple and scalable Laravel API starter project with integrated Swagger UI documentation using [L5-Swagger](https://github.com/DarkaOnLine/L5-Swagger). It includes a seeded user list for development and testing purposes.
+Build a backend in Laravel that allows two registered users to initiate and receive audio calls via token-based signaling (for WebRTC/Agora-like flow).
 
 ---
 
@@ -21,13 +21,13 @@ Follow the steps below to get the project up and running:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/mmmmm.git
-cd mmmmm
+git clone https://github.com/sainianshul/audio-call-api.git
+cd audio-call-api
 ```
 
 ### 2. Install Dependencies
 
-Make sure you have PHP, Composer, and a database (MySQL/PostgreSQL) setup.
+Make sure you have PHP, Composer, and a database (MySQL) setup.
 
 ```bash
 composer install
@@ -108,8 +108,9 @@ Bearer your-token-here
 ##  Directory Structure Highlights
 
 - `app/Http/Controllers/UserController.php` – Contains user listing and search endpoints.
-- `database/seeders/UsersSeeder.php` – Seeds the database with dummy users.
-- `config/l5-swagger.php` – Configuration for Swagger UI and API definitions.
+- `app/Http/Controllers/CallController.php` – Contains call actions
+
+
 
 ---
 
@@ -140,8 +141,9 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 
 
-## 📧 Contact
+##  Contact
 
 For any inquiries or support, please reach out to:
 
-- GitHub: [@your-username](https://github.com/sainianshul)
+
+- GitHub: [@sainianshul](https://github.com/sainianshul)
